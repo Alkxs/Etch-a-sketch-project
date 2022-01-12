@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Etch a sketch project</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <header class="header">
+      <h1>Etch a sketch</h1>
+    </header>
+    <main>
+      <div id="gridContainer"></div>
+      <div class="buttons">
+        <input id="colorPicker" type="color" value="#333333" />
+        <button id="color" class="btn">Color mode</button>
+        <button id="rainbow" class="btn">Rainbow</button>
+        <button id="clear" class="btn">Clear</button>
+        <button id="eraser" class="btn">Eraser</button>
+        <div id="sizeValue" class="size-value">50 x 50</div>
+        <input id="sizeSlider" type="range" value="50" min="1" max="100" />
+      </div>
+    </main>
+    <footer class="footer">
+      <p>
+        Copyright ©
+        <script>
+          document.write(new Date().getFullYear());
+        </script>
+        AlexLauri
+      </p>
+      <a href="https://github.com/Alkxs" target="_blank"></a>
+    </footer>
+  </body>
+</html>
